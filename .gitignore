@@ -1,0 +1,34 @@
+# --- Переменные окружения и секреты ---
+.env
+.env.*
+*.local
+
+# --- IDE / редакторы ---
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# --- Java / Gradle / Maven ---
+target/
+*.class
+.gradle/
+
+# --- Логи и временные файлы ---
+*.log
+*.tmp
